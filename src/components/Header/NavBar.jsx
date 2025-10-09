@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
-import logo1 from "../../assets/logo-1.png";
+import logo1 from "../../assets/logo.png";
 import { Link, NavLink } from 'react-router';
 
 const NavBar = () => {
 
     const links = <>
-        <NavLink to="/"><li className='mr-2'>Home</li></NavLink>
-        <NavLink><li className='ml-2 mr-2'>Apps</li></NavLink>
-        <NavLink><li className='ml-2'>Installation</li></NavLink>
+        <NavLink to="/" className={({ isActive }) => isActive ? "text-purple-600 border-b-2 text-center border-purple-500 font-semibold" : "hover:text-purple-600 hover:font-semibold"}><li className='mr-2'>Home</li></NavLink>
+        <NavLink to="/apps" className={({ isActive }) => isActive ? "text-purple-600 border-b-2 border-purple-500 font-semibold" : "hover:text-purple-600 hover:font-semibold"}><li className='ml-2 mr-2'>Apps</li></NavLink>
+        <NavLink to="/installation" className={({ isActive }) => isActive ? "text-purple-600 border-b-2 border-purple-500 font-semibold" : "hover:text-purple-600 hover:font-semibold"}><li className='ml-2'>Installation</li></NavLink>
     </>
 
     return (
@@ -25,7 +25,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <Link to="/">
-                    <a className="btn btn-ghost text-xl text-purple-600"><img src={logo1} className='w-[40px] h-[40px]' alt="" /> Hero.IO</a></Link>
+                    <p className="btn btn-ghost text-xl text-purple-600"><img src={logo1} className='w-[40px] h-[40px]' alt="" /> Hero.IO</p></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -33,7 +33,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-primary"><FaGithub />Contribute</a>
+                <a href='https://github.com/roll-raihan' target='_blank' rel="noopener noreferrer" className="btn btn-primary"><FaGithub />Contribute</a>
             </div>
         </div>
     );
