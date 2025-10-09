@@ -7,7 +7,7 @@ import TrendingApps from '../../TrendingApps/TrendingApps';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='pb-8'>
             <div className='text-4xl font-bold flex flex-col justify-center items-center p-5'>
                 <h1>We Build</h1>
                 <h1><span className='text-purple-600'>Productive</span> App</h1>
@@ -48,6 +48,9 @@ const Banner = () => {
                 </div>
             </div>
             <TrendingApps></TrendingApps>
+            <Link to="/apps"><div className=' flex justify-center items-center'>
+                <button className='btn btn-primary'>Show All</button>
+            </div></Link>
         </div>
     );
 };
