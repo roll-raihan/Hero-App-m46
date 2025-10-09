@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import googlePlay from '../../../assets/playStore.png';
 import appStore from '../../../assets/appStore.png';
 import hero from '../../../assets/hero.png'
+import TrendingApps from '../../TrendingApps/TrendingApps';
 
 const Banner = () => {
     return (
@@ -46,6 +47,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+            <TrendingApps></TrendingApps>
         </div>
     );
 };
