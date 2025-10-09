@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://i.ibb.co/0cMZgqR/spotify.png",
+        "image": "https://i.ibb.co.com/fYrFBpsX/image.png",
         "title": "Spotify",
         "companyName": "Spotify AB",
         "id": 1,
@@ -33,7 +33,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/fv4C1M1/instagram.png",
+        "image": "https://i.ibb.co.com/Kp9yPZZD/image.png",
         "title": "Instagram",
         "companyName": "Meta Platforms, Inc.",
         "id": 2,
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/m0TnP2N/zoom.png",
+        "image": "https://i.ibb.co.com/q3bb17n7/image.png",
         "title": "Zoom",
         "companyName": "Zoom Video Communications, Inc.",
         "id": 3,
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/1mWz7rx/netflix.png",
+        "image": "https://i.ibb.co.com/zTByZmyV/image.png",
         "title": "Netflix",
         "companyName": "Netflix, Inc.",
         "id": 4,
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/5FznnN4/snapchat.png",
+        "image": "https://i.ibb.co.com/Kz6VkJjY/image.png",
         "title": "Snapchat",
         "companyName": "Snap Inc.",
         "id": 5,
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/JmG3pDY/whatsapp.png",
+        "image": "https://i.ibb.co.com/XZJ6Yfnh/image.png",
         "title": "WhatsApp Messenger",
         "companyName": "Meta Platforms, Inc.",
         "id": 6,
@@ -198,7 +198,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/gRDK2xG/canva.png",
+        "image": "https://i.ibb.co.com/8n1RkNkP/image.png",
         "title": "Canva",
         "companyName": "Canva Pty Ltd",
         "id": 7,
@@ -231,7 +231,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/ZSrH8Sp/telegram.png",
+        "image": "https://i.ibb.co.com/jPC4h85X/image.png",
         "title": "Telegram",
         "companyName": "Telegram FZ-LLC",
         "id": 8,
@@ -264,7 +264,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/V3mQ5wS/youtube.png",
+        "image": "https://i.ibb.co.com/QFtmWxbD/image.png",
         "title": "YouTube",
         "companyName": "Google LLC",
         "id": 9,
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/X2J2fsC/twitter.png",
+        "image": "https://i.ibb.co.com/LHcY70v/image.png",
         "title": "X (Twitter)",
         "companyName": "X Corp.",
         "id": 10,
@@ -330,7 +330,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/Dt7VrxG/tiktok.png",
+        "image": "https://i.ibb.co.com/gFDDCWZ1/image.png",
         "title": "TikTok",
         "companyName": "ByteDance Ltd.",
         "id": 11,
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/NZFTxVG/linkedin.png",
+        "image": "https://i.ibb.co.com/N2LBCDW2/image.png",
         "title": "LinkedIn",
         "companyName": "LinkedIn Corporation",
         "id": 12,
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/4gPz6zS/reddit.png",
+        "image": "https://i.ibb.co.com/fVbv8wLX/image.png",
         "title": "Reddit",
         "companyName": "Reddit Inc.",
         "id": 13,
@@ -429,7 +429,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/xLHwHdb/google-maps.png",
+        "image": "https://i.ibb.co.com/Ng6L0fT4/image.png",
         "title": "Google Maps",
         "companyName": "Google LLC",
         "id": 14,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/sRCG5Kn/discord.png",
+        "image": "https://i.ibb.co.com/fGYnx77s/image.png",
         "title": "Discord",
         "companyName": "Discord Inc.",
         "id": 15,
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/6t7YcFq/pinterest.png",
+        "image": "https://i.ibb.co.com/cSSP5D6K/image.png",
         "title": "Pinterest",
         "companyName": "Pinterest, Inc.",
         "id": 16,
@@ -528,8 +528,8 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/FVdqZdM/amazon.png",
-        "title": "Amazon Shopping",
+        "image": "https://i.ibb.co.com/VWGc7K48/image.png",
+        "title": "Amazon",
         "companyName": "Amazon Mobile LLC",
         "id": 17,
         "description": "Amazon Shopping lets you buy anything from electronics to clothing with one click. Track orders, explore deals, and read verified reviews before purchasing. Shop securely with multiple payment options. Fast delivery and easy returns make it one of the most trusted e-commerce apps.",
@@ -561,7 +561,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/YDRvH3T/uber.png",
+        "image": "https://i.ibb.co.com/hFFDJydx/image.png",
         "title": "Uber",
         "companyName": "Uber Technologies, Inc.",
         "id": 18,
@@ -594,7 +594,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/2t8MZxG/google-drive.png",
+        "image": "https://i.ibb.co.com/gMCyWbbk/image.png",
         "title": "Google Drive",
         "companyName": "Google LLC",
         "id": 19,
@@ -627,7 +627,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/3y4Lk9V/duolingo.png",
+        "image": "https://i.ibb.co.com/Jj7Hz6vw/image.png",
         "title": "Duolingo",
         "companyName": "Duolingo, Inc.",
         "id": 20,
