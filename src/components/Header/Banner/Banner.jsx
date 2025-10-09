@@ -6,7 +6,7 @@ import hero from '../../../assets/hero.png'
 
 const Banner = () => {
     return (
-        <div className=''>
+        <div>
             <div className='text-4xl font-bold flex flex-col justify-center items-center p-5'>
                 <h1>We Build</h1>
                 <h1><span className='text-purple-600'>Productive</span> App</h1>
@@ -25,6 +25,26 @@ const Banner = () => {
             </div>
             <div className='flex justify-center items-center mt-4'>
                 <img src={hero} alt="hero photo" className='w-2/4' />
+            </div>
+            <div className='bg-purple-500 text-white pt-8 pb-8'>
+                <h1 className='text-3xl font-bold text-center text-wrap'>Trusted by Millions, Built for You</h1>
+                <div className='flex gap-10 justify-center items-center m-5 flex-col md:flex-row'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p>Total Downloads</p>
+                        <h1 className='text-4xl font-bold'>29.6M</h1>
+                        <p>21% More Than Last Month</p>
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p>Total Reviews</p>
+                        <h1 className='text-4xl font-bold'>906K</h1>
+                        <p>46% More Than Last Month</p>
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p>Active Apps</p>
+                        <h1 className='text-4xl font-bold'>132+</h1>
+                        <p>31 more will Launch</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
