@@ -1,13 +1,14 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import logo1 from "../../assets/logo-1.png";
+import { Link, NavLink } from 'react-router';
 
 const NavBar = () => {
 
     const links = <>
-        <li className='mr-2'>Home</li>
-        <li className='ml-2 mr-2'>Apps</li>
-        <li className='ml-2'>Installation</li>
+        <NavLink to="/"><li className='mr-2'>Home</li></NavLink>
+        <NavLink><li className='ml-2 mr-2'>Apps</li></NavLink>
+        <NavLink><li className='ml-2'>Installation</li></NavLink>
     </>
 
     return (
@@ -23,7 +24,8 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-purple-600"><img src={logo1} className='w-[40px] h-[40px]' alt="" /> Hero.IO</a>
+                <Link to="/">
+                    <a className="btn btn-ghost text-xl text-purple-600"><img src={logo1} className='w-[40px] h-[40px]' alt="" /> Hero.IO</a></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

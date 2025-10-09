@@ -1,0 +1,266 @@
+[
+    {
+        "image": "https://i.ibb.co/0cMZgqR/spotify.png",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 1,
+        "description": "Spotify lets you stream millions of songs, albums, and podcasts from artists all over the world. You can create playlists, discover new music based on your taste, and follow your favorite creators. Enjoy personalized recommendations and mood-based mixes. Listen anytime, anywhere — online or offline with downloaded content.",
+        "size": 85,
+        "reviews": 12500000,
+        "ratingAvg": 4.6,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 150000
+            },
+            {
+                "name": "3 star",
+                "count": 500000
+            },
+            {
+                "name": "4 star",
+                "count": 2500000
+            },
+            {
+                "name": "5 star",
+                "count": 9200000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/fv4C1M1/instagram.png",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Instagram is a social media platform where you can share photos, videos, and daily stories with friends and followers. Explore trending reels, chat directly through DMs, and discover content tailored to your interests. You can follow influencers, brands, and creators you love. Stay connected and creative in a visually engaging way.",
+        "size": 120,
+        "reviews": 10500000,
+        "ratingAvg": 4.4,
+        "downloads": 5000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400000
+            },
+            {
+                "name": "2 star",
+                "count": 350000
+            },
+            {
+                "name": "3 star",
+                "count": 900000
+            },
+            {
+                "name": "4 star",
+                "count": 2500000
+            },
+            {
+                "name": "5 star",
+                "count": 7300000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/m0TnP2N/zoom.png",
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications, Inc.",
+        "id": 3,
+        "description": "Zoom is a reliable video conferencing app for meetings, online classes, and collaboration. It offers high-quality video and audio, screen sharing, and recording options. You can host large meetings with participants worldwide. Stay productive, connected, and organized whether you're working remotely or learning online.",
+        "size": 70,
+        "reviews": 3500000,
+        "ratingAvg": 4.3,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 120000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 900000
+            },
+            {
+                "name": "5 star",
+                "count": 1980000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/1mWz7rx/netflix.png",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 4,
+        "description": "Netflix lets you watch thousands of movies, TV shows, and exclusive originals anytime. Create profiles, continue watching across devices, and download titles to enjoy offline. Personalized recommendations help you find what you love faster. Enjoy entertainment without ads and stream seamlessly in HD or 4K quality.",
+        "size": 180,
+        "reviews": 9500000,
+        "ratingAvg": 4.5,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 250000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 650000
+            },
+            {
+                "name": "4 star",
+                "count": 2000000
+            },
+            {
+                "name": "5 star",
+                "count": 6400000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/5FznnN4/snapchat.png",
+        "title": "Snapchat",
+        "companyName": "Snap Inc.",
+        "id": 5,
+        "description": "Snapchat is a fun and fast way to share moments with friends using snaps and stories. Express yourself with filters, lenses, and Bitmojis. Messages disappear after viewing, keeping conversations private. Discover trending content, watch Spotlight videos, and stay in touch with your social circle creatively.",
+        "size": 90,
+        "reviews": 6700000,
+        "ratingAvg": 4.2,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 400000
+            },
+            {
+                "name": "3 star",
+                "count": 800000
+            },
+            {
+                "name": "4 star",
+                "count": 1900000
+            },
+            {
+                "name": "5 star",
+                "count": 3300000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/JmG3pDY/whatsapp.png",
+        "title": "WhatsApp Messenger",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 6,
+        "description": "WhatsApp is a secure and fast messaging app used by billions worldwide. Send text, voice, and video messages instantly with end-to-end encryption. Make voice and video calls for free across the globe. You can also share documents, photos, and media in group chats easily and safely.",
+        "size": 65,
+        "reviews": 17000000,
+        "ratingAvg": 4.7,
+        "downloads": 10000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 250000
+            },
+            {
+                "name": "3 star",
+                "count": 700000
+            },
+            {
+                "name": "4 star",
+                "count": 3200000
+            },
+            {
+                "name": "5 star",
+                "count": 12500000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/gRDK2xG/canva.png",
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "id": 7,
+        "description": "Canva helps you design graphics, presentations, and videos with ease. Choose from thousands of free templates, fonts, and icons. Perfect for students, marketers, and professionals. Collaborate with teams in real time and create stunning visuals for social media, business, or personal projects effortlessly.",
+        "size": 100,
+        "reviews": 2900000,
+        "ratingAvg": 4.8,
+        "downloads": 500000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50000
+            },
+            {
+                "name": "2 star",
+                "count": 60000
+            },
+            {
+                "name": "3 star",
+                "count": 100000
+            },
+            {
+                "name": "4 star",
+                "count": 450000
+            },
+            {
+                "name": "5 star",
+                "count": 2240000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/ZSrH8Sp/telegram.png",
+        "title": "Telegram",
+        "companyName": "Telegram FZ-LLC",
+        "id": 8,
+        "description": "Telegram is a fast and secure messaging app built for privacy and speed. It supports large groups, cloud storage, and high-quality media sharing. You can join public channels, create bots, and organize conversations with folders. Enjoy unlimited file sharing and a clean, customizable interface.",
+        "size": 60,
+        "reviews": 5400000,
+        "ratingAvg": 4.4,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150000
+            },
+            {
+                "name": "2 star",
+                "count": 120000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 1200000
+            },
+            {
+                "name": "5 star",
+                "count": 3600000
+            }
+        ]
+    }
+]
