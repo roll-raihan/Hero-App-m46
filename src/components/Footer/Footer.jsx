@@ -1,10 +1,37 @@
 import React from 'react';
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 
 const Footer = () => {
     return (
-        <div>
-            <h2>I Am Footer</h2>
-        </div>
+        <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
+            <nav>
+                <h6 className="footer-title">Services</h6>
+                <a className="hover:text-black hover:font-bold">Apps</a>
+                <a className="hover:text-black hover:font-bold">Installation</a>
+                <a className="hover:text-black hover:font-bold">Marketing</a>
+                <a className="hover:text-black hover:font-bold">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 className="footer-title">Company</h6>
+                <a className="hover:font-bold hover:text-black">About us</a>
+                <a className="hover:font-bold hover:text-black">Contact</a>
+                <a className="hover:font-bold hover:text-black">Jobs</a>
+                <a className="hover:font-bold hover:text-black">Press kit</a>
+            </nav>
+            <nav>
+                <h6 className="footer-title">Social</h6>
+                <div className="grid grid-flow-col gap-4">
+                    <FaTwitter />
+                    <FaYoutube />
+                    <FaFacebook />
+                    <FaInstagram />
+                </div>
+            </nav>
+        </footer>
     );
 };
 
