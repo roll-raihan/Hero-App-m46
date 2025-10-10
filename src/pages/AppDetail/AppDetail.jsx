@@ -13,9 +13,9 @@ const AppDetail = () => {
     // console.log(data)
     const singleApp = data.find(app => app.id === convertId);
 
-    // console.log(singleApp);
+    // console.log(singleApp); , ratings
 
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = singleApp;
+    const { image, title, companyName, description, size, reviews, ratingAvg, downloads } = singleApp;
 
     return (
         <div className='bg-gray-100 p-10'>
