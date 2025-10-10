@@ -10,7 +10,7 @@ const AppNotFound = () => {
             <div className='flex flex-col justify-center items-center p-2'>
                 <h1 className='text-4xl font-bold mt-2 mb-2 text-center'>OPPS!! APP NOT FOUND</h1>
                 <p className='text-center mb-2'>The App you are requesting is not found on our system.  please try another apps</p>
-                <Link to="/installation">
+                <Link to="/apps">
                     <button className='btn btn-primary'>Go Back</button>
                 </Link>
             </div>
