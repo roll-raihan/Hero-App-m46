@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
@@ -20,8 +20,33 @@ const AppDetail = () => {
 
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads } = singleApp;
 
-    const handleInstall = id => {
+    //install btn function
+    const [installed, setInstalled] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+    //check if already installed
+    useEffect(() => {
+        const installedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
+        if (installedApps.includes(singleApp.id)) {
+            setInstalled(true);
+        }
+    }, [singleApp.id]);
+
+    const handleInstall = async (id) => {
+        if (installed || loading) return;
+        setLoading(true);
         addToStoredDB(id);
+
+        await new Promise((r) => setTimeout(r, 800));
+        setInstalled(true);
+        setLoading(false);
+        // localStorage.setItem("myAppInstalled", "true"); //to set in local storage if not exist
+
+        const installedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
+        if (!installedApps.includes(id)) {
+            installedApps.push(id);
+            localStorage.setItem("installedApps", JSON.stringify(installedApps));
+        }
     }
 
     return (
@@ -52,7 +77,10 @@ const AppDetail = () => {
                         </div>
                     </div>
                     <ToastContainer />
-                    <button onClick={() => handleInstall(id)} className='btn btn-accent text-white mt-2 mb-3'>Install Now ({size}MB)</button>
+                    <button onClick={() => handleInstall(singleApp.id)} disabled={installed || loading}
+                        // aria-disabled={installed || loading}
+                        // aria-pressed={installed} 
+                        className='btn btn-accent text-white mt-2 mb-3'>{installed ? "Installed" : loading ? "Installing..." : "Install"} ({size}MB)</button>
                 </div>
             </div>
             <div className='border-b-1 border-gray-400'>

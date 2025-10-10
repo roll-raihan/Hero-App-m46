@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../../assets/demo-app (1).webp';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 
