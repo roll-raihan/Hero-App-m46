@@ -33,7 +33,7 @@ const Installation = () => {
             </div>
             <div className='grid grid-cols-1 gap-5'>
                 {
-                    install.map(app=><InstallCard key={app.id} app={app}></InstallCard>)
+                    install.map(app=><InstallCard setInstall={setInstall} key={app.id} app={app}></InstallCard>)
                 }
             </div>
         </div>
