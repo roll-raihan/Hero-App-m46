@@ -297,7 +297,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/LHcY70v/image.png",
+        "image": "https://i.ibb.co.com/GvGJxCgp/image.png",
         "title": "X (Twitter)",
         "companyName": "X Corp.",
         "id": 10,
@@ -330,7 +330,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/gFDDCWZ1/image.png",
+        "image": "https://i.ibb.co.com/bgsCTCsh/image.png",
         "title": "TikTok",
         "companyName": "ByteDance Ltd.",
         "id": 11,
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/N2LBCDW2/image.png",
+        "image": "https://i.ibb.co.com/Y4XS229G/image.png",
         "title": "LinkedIn",
         "companyName": "LinkedIn Corporation",
         "id": 12,
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/fVbv8wLX/image.png",
+        "image": "https://i.ibb.co.com/Q7tMB19m/image.png",
         "title": "Reddit",
         "companyName": "Reddit Inc.",
         "id": 13,
@@ -429,7 +429,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/Ng6L0fT4/image.png",
+        "image": "https://i.ibb.co.com/pjZ6jmw2/image.png",
         "title": "Google Maps",
         "companyName": "Google LLC",
         "id": 14,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/fGYnx77s/image.png",
+        "image": "https://i.ibb.co.com/SqzZHDf/image.png",
         "title": "Discord",
         "companyName": "Discord Inc.",
         "id": 15,
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/cSSP5D6K/image.png",
+        "image": "https://i.ibb.co.com/FL8KS2d6/image.png",
         "title": "Pinterest",
         "companyName": "Pinterest, Inc.",
         "id": 16,
@@ -528,7 +528,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/VWGc7K48/image.png",
+        "image": "https://i.ibb.co.com/DPxRj9Yv/image.png",
         "title": "Amazon",
         "companyName": "Amazon Mobile LLC",
         "id": 17,
@@ -561,7 +561,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/hFFDJydx/image.png",
+        "image": "https://i.ibb.co.com/qLG6TSy0/image.png",
         "title": "Uber",
         "companyName": "Uber Technologies, Inc.",
         "id": 18,
@@ -594,7 +594,7 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/gMCyWbbk/image.png",
+        "image": "https://i.ibb.co.com/JRS36zQV/image.png",
         "title": "Google Drive",
         "companyName": "Google LLC",
         "id": 19,
@@ -627,35 +627,35 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/Jj7Hz6vw/image.png",
-        "title": "Duolingo",
-        "companyName": "Duolingo, Inc.",
-        "id": 20,
-        "description": "Duolingo turns language learning into short, fun lessons you can do anytime. Learn vocabulary and grammar through interactive exercises, streaks, and bite-sized challenges. The app adapts to your level and gives instant feedback to keep progress steady. Gamified features, leaderboards, and reminders make practicing consistently easy and motivating.",
-        "size": 85,
-        "reviews": 6200000,
-        "ratingAvg": 4.6,
-        "downloads": 500000000,
+        "image": "https://i.ibb.co.com/3KrGHyd/image.png",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 21,
+        "description": "Facebook is a social media platform that connects people with friends, family, and communities across the world. You can share posts, photos, and videos, react to others’ content, and join groups of shared interests. The app also features stories, live streaming, and marketplace for buying and selling. Facebook helps you stay updated with events, news, and the people that matter most, all in one place.",
+        "size": 180,
+        "reviews": 32000000,
+        "ratingAvg": 4.3,
+        "downloads": 6000000000,
         "ratings": [
             {
                 "name": "1 star",
-                "count": 120000
+                "count": 800000
             },
             {
                 "name": "2 star",
-                "count": 100000
+                "count": 600000
             },
             {
                 "name": "3 star",
-                "count": 300000
+                "count": 2000000
             },
             {
                 "name": "4 star",
-                "count": 880000
+                "count": 7500000
             },
             {
                 "name": "5 star",
-                "count": 4800000
+                "count": 21100000
             }
         ]
     }
