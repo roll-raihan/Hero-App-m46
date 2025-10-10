@@ -1,3 +1,4 @@
+// import { useEffect } from 'react';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import { toast } from 'react-toastify';
@@ -6,17 +7,21 @@ const InstallCard = ({ app, setInstall }) => {
 
     const { image, title, downloads, ratingAvg, size, id } = app;
 
-    const handleUninstall = () => {
+//     useEffect(() => {
+//     const apps = JSON.parse(localStorage.getItem("installedApps")) || [];
+//     setInstall(apps);
+//   }, []);
+
+    const handleUninstall = (id) => {
+        toast("uninstalled.");
 
         const installedApps = JSON.parse(localStorage.getItem("installedApps") || []);
-        const updated = installedApps.filter((appid) => appid !== id);
+        const updated = installedApps.filter((appId) => appId !== id);
         localStorage.setItem("installedApps", JSON.stringify(updated));
 
         if (setInstall) {
             setInstall(updated);
         }
-
-        toast(`${title} has been uninstalled.`);
     }
 
     return (
@@ -34,7 +39,7 @@ const InstallCard = ({ app, setInstall }) => {
                     </div>
                 </div>
             </div>
-            <button onClick={handleUninstall} className='btn btn-accent text-white'>Uninstall</button>
+            <button onClick={()=>handleUninstall(id)} className='btn btn-accent text-white'>Uninstall</button>
         </div>
     );
 };

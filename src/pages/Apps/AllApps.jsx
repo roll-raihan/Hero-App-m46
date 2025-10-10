@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import App from './App/App';
-import { useLoaderData, useNavigate } from 'react-router';
+import { Navigate, useLoaderData, useNavigate } from 'react-router';
 import AppNotFound from '../AppNotFound/AppNotFound';
 
 const AllApps = () => {
@@ -23,8 +23,8 @@ const AllApps = () => {
     useEffect(() => {
         if (normalizedQuery && filteredApps.length === 0) {
             const timeout = setTimeout(() => {
-                navigate("/appNotFound");
-            }, 500); // add small delay for smooth UX
+                navigate("/appNotFound", { replace: true });
+            }, 500); // add small delay for smooth
             return () => clearTimeout(timeout);
         }
     }, [normalizedQuery, filteredApps, navigate]);
