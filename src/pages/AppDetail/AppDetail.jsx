@@ -3,6 +3,9 @@ import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
+import { addToStoredDB } from '../../utility/addToDB';
+import { ToastContainer } from 'react-toastify';
+
 
 const AppDetail = () => {
     const { id } = useParams();
@@ -16,6 +19,10 @@ const AppDetail = () => {
     // console.log(singleApp); , ratings
 
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads } = singleApp;
+
+    const handleInstall = id => {
+        addToStoredDB(id);
+    }
 
     return (
         <div className='bg-gray-100 p-10'>
@@ -44,7 +51,8 @@ const AppDetail = () => {
                             <h1 className='text-xl font-bold'>{reviews}</h1>
                         </div>
                     </div>
-                    <button className='btn btn-accent text-white mt-2 mb-3'>Install Now ({size}MB)</button>
+                    <ToastContainer />
+                    <button onClick={() => handleInstall(id)} className='btn btn-accent text-white mt-2 mb-3'>Install Now ({size}MB)</button>
                 </div>
             </div>
             <div className='border-b-1 border-gray-400'>
