@@ -1,4 +1,3 @@
-import React from 'react';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import { toast } from 'react-toastify';

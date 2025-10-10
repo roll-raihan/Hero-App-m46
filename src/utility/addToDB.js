@@ -25,7 +25,7 @@ const addToStoredDB = (id) => {
         storedAppData.push(id);
         const data = JSON.stringify(storedAppData);
         localStorage.setItem("readList", data);
-        // toast("Installed!!");
+        toast("Installed!!");
         // console.log(data)
     }
 }
