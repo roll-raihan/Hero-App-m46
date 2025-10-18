@@ -22,6 +22,8 @@ const AllApps = () => {
             return title.includes(normalizedQuery);
         });
     }, [data, normalizedQuery]);
+
+    //useEffect for app not found
     useEffect(() => {
         if (normalizedQuery && filteredApps.length === 0) {
             const timeout = setTimeout(() => {
@@ -30,6 +32,8 @@ const AllApps = () => {
             return () => clearTimeout(timeout);
         }
     }, [normalizedQuery, filteredApps, navigate]);
+
+    //useEffect for loading animation on search
     useEffect(() => {
         if (loading) {
             const timer = setTimeout(() => {
@@ -73,7 +77,7 @@ const AllApps = () => {
                                     <div className=' absolute mt-10'>
                                         {loading ?
                                             (
-                                                // 🌀 Show loading animation
+                                                // Show loading animation
                                                 <div className="flex justify-center items-center p-4">
                                                     <div className="w-6 h-6 border-4 border-blue-400 border-t-transparent rounded-full animate-spin"></div>
                                                     <span className="ml-2 text-gray-600">Searching...</span>
