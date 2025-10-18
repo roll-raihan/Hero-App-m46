@@ -8,6 +8,8 @@ const AllApps = () => {
     const data = useLoaderData();
     // console.log(data);
 
+    //for loading while searching
+    const [loading, setLoading] = useState(false);
     //for search
     const [query, setQuery] = useState("");
     const normalizedQuery = query.trim().toLowerCase();
@@ -28,6 +30,15 @@ const AllApps = () => {
             return () => clearTimeout(timeout);
         }
     }, [normalizedQuery, filteredApps, navigate]);
+    useEffect(() => {
+        if (loading) {
+            const timer = setTimeout(() => {
+                setLoading(false); // stop loading after short delay
+            }, 500); // 0.5s loading effect
+            return () => clearTimeout(timer);
+        }
+    }, [loading]);
+
 
     return (
         <div className='bg-gray-100 p-5'>
@@ -51,21 +62,36 @@ const AllApps = () => {
                         </svg>
                         <div className='flex flex-col gap-5'>
                             <input type="search" required value={query}
-                                onChange={(e) => setQuery(e.target.value)}
+                                onChange={(e) => {
+                                    setQuery(e.target.value);
+                                    setLoading(true);
+                                }
+                                }
                                 placeholder="Search" />
                             {
                                 normalizedQuery && (
                                     <div className=' absolute mt-10'>
-                                        {
-                                            filteredApps.length > 0 && <ul className='end-0'>
-                                                {
-                                                    filteredApps.map(app => (
-                                                        <li key={app.id} className="p-2 border-gray-200 rounded-lg shadow-sm hover:shadow-md transition bg-white text-black mb-2">
-                                                            {app.title}
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
+                                        {loading ?
+                                            (
+                                                // 🌀 Show loading animation
+                                                <div className="flex justify-center items-center p-4">
+                                                    <div className="w-6 h-6 border-4 border-blue-400 border-t-transparent rounded-full animate-spin"></div>
+                                                    <span className="ml-2 text-gray-600">Searching...</span>
+                                                </div>
+                                            ) :
+                                            (filteredApps.length > 0
+                                                ?
+                                                <ul className='end-0'>
+                                                    {
+                                                        filteredApps.map(app => (
+                                                            <li key={app.id} className="p-2 border-gray-200 rounded-lg shadow-sm hover:shadow-md transition bg-white text-black mb-2">
+                                                                {app.title}
+                                                            </li>
+                                                        ))
+                                                    }
+                                                </ul>
+                                                :
+                                                (<AppNotFound></AppNotFound>))
                                         }
                                     </div>
                                 )
