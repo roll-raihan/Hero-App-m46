@@ -6,6 +6,8 @@ A modern, responsive web application for browsing, searching, and managing mobil
 
 Hero App is a comprehensive application marketplace interface built with React that provides users with a seamless experience to discover, explore, and manage mobile applications. The platform features a beautiful UI with live search capabilities, detailed app information pages, interactive review visualizations, and a complete installation management system with localStorage persistence.
 
+- **Live Demo**: [https://delicate-raindrop-3ec2df.netlify.app/](https://delicate-raindrop-3ec2df.netlify.app/)
+
 
 ## 💻 Technologies Used
 
@@ -109,7 +111,7 @@ yarn preview
 ## 🌐 Live Links
 
 - **Live Demo**: [https://delicate-raindrop-3ec2df.netlify.app/](https://delicate-raindrop-3ec2df.netlify.app/)
-- **GitHub Repository**: [https://github.com/yourusername/hero-app](https://github.com/yourusername/hero-app)
+- **GitHub Repository**: [(https://github.com/roll-raihan/Hero-App-m46.git)]
 
 
 ## 🤝 Contributing
