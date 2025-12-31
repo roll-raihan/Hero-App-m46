@@ -110,8 +110,8 @@ yarn preview
 
 ## 🌐 Live Links
 
-- **Live Demo**: [https://delicate-raindrop-3ec2df.netlify.app/](https://delicate-raindrop-3ec2df.netlify.app/)
-- **GitHub Repository**: [(https://github.com/roll-raihan/Hero-App-m46.git)]
+- **Live Demo**: [Click here](https://delicate-raindrop-3ec2df.netlify.app/)
+- **GitHub Repository**: [Click here](https://github.com/roll-raihan/Hero-App-m46.git)
 
 
 ## 🤝 Contributing
@@ -121,8 +121,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [(https://github.com/yourusername)]
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [roll-raihan](https://github.com/yourusername)
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/raihan-ahmed-nasim/)
 
 ## 📄 License
 
